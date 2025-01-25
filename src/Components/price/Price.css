@@ -1,0 +1,42 @@
+.price .price-card div:nth-child(2) .price-details {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.price .price-card div:nth-child(2) .best {
+  width: fit-content;
+  background: #ff6922;
+  color: #fff;
+}
+.price .price-details {
+  box-shadow: 0 0 20px 0 rgba(112, 121, 138, 0.18);
+}
+
+.price .price-details ul li .package-existing {
+  width: 30px;
+  height: 30px;
+}
+
+.change-color {
+  background: rgba(39, 174, 96, 0.12);
+  color: rgb(39, 174, 96);
+}
+
+.not-change {
+  background: rgba(220, 53, 69, 0.12);
+  color: rgb(220, 56, 72);
+}
+
+.Basic-or-Platinum {
+  background: rgb(255, 255, 255);
+  color: rgb(39, 174, 96);
+  border: 5px solid #27ae601f;
+}
+
+.standard {
+  background: rgb(39, 174, 96);
+  color: rgb(255, 255, 255);
+}

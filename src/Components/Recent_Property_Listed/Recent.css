@@ -1,0 +1,31 @@
+.recent .card {
+  box-shadow: 0 0 20px 0 rgba(112, 121, 138, 0.18);
+}
+
+.recent .category span {
+  font-size: 14px;
+}
+.recent .category i {
+  color: #bec7d8;
+  font-size: 1.2rem;
+}
+.recent .location {
+  color: #72809d;
+}
+.recent .recent-buy {
+  border-top: 1px solid #e4e8f3;
+  padding-top: 1.5rem;
+}
+
+.recent .recent-card {
+  cursor: pointer;
+}
+.for-rent {
+  background: rgba(255, 152, 0, 0.1);
+  color: rgb(255, 152, 0);
+}
+
+.for-sale {
+  background: rgba(37, 181, 121, 0.1);
+  color: rgb(37, 181, 121);
+}

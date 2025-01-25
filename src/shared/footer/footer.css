@@ -1,0 +1,39 @@
+.footer {
+  background-color: #1d2636;
+  color: #fff;
+
+  p {
+    color: gray;
+    width: 75%;
+  }
+  .image {
+    width: 180px;
+  }
+
+  .btn-subscribe {
+    background: #27ae60;
+    color: #fff;
+  }
+
+  ul li {
+    color: gray;
+  }
+  .legal {
+    background: #1d2636;
+    border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+    color: hsla(0, 0%, 100%, 0.5);
+  }
+}
+@media (max-width: 520px) {
+  footer {
+    .btn-subscribe {
+      width: 100%;
+    }
+
+    .subscribe {
+      input {
+        width: 100%;
+      }
+    }
+  }
+}

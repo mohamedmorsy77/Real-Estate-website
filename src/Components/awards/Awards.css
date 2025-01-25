@@ -1,0 +1,40 @@
+.awards {
+  background-color: #122947;
+  color: #fff;
+}
+
+.awards .awards-heading {
+  h3 {
+    line-height: 1.5;
+  }
+
+  p {
+    color: #27ae60;
+  }
+}
+.awards .awards-box .icon {
+  background: hsla(0, 0%, 100%, 0.1);
+  width: fit-content;
+  margin: auto;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 50%;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+.awards .awards-box .icon i {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+.awards .awards-box p {
+  color: grey;
+  font-size: 14px;
+}

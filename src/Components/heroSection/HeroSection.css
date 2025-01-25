@@ -1,0 +1,44 @@
+.hero {
+  height: 90vh;
+  background-image: url(../../../src/assets/images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero .hero-info {
+  h2 {
+    font-size: 4rem;
+  }
+
+  p {
+    color: #72809d;
+  }
+}
+
+.hero .hero-form {
+  background-color: #fff;
+  .box {
+    border-right: 1px solid hsla(0, 0%, 50%, 0.2);
+    flex-grow: 1;
+    label {
+      color: grey;
+    }
+    input {
+      border: 1px solid hsla(0, 0%, 50%, 0.2);
+      outline: 0;
+      color: rgb(90, 199, 90);
+    }
+    input::placeholder {
+      color: rgb(90, 199, 90);
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .hero .hero-info {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+header {
+  background-color: #fff;
+  box-shadow: 0 5px 30px rgba(0, 22, 84, 0.1);
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  height: 10vh;
+}
+
+header .container .logo {
+  width: 200px;
+}
+
+header ul a:hover {
+
+  background: #27ae60;
+  color: #fff !important;
+}
+
+header .navbar-toggler {
+  border: 2px solid #27ae60;
+  outline: none;
+}
+
+header .navbar-toggler:focus {
+  box-shadow: 0 0 3px #27ae60;
+}
+
+@media (max-width: 992px) {
+  header .navbar-collapse {
+    padding-top: 1.5rem;
+    position: absolute;
+    top: 74px;
+    left: 0;
+    background-color: #36f485;
+  }
+}

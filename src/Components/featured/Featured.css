@@ -1,0 +1,28 @@
+.featured {
+  background-color: #f7f9fc;
+}
+
+.featured .features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.featured .features .box {
+  box-shadow: 0 0 20px 0 rgba(112, 121, 138, 0.18);
+  cursor: pointer;
+
+  img {
+    width: 65px;
+    height: 65px;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    color: #2d3954;
+    font-size: 15px;
+  }
+}
+
