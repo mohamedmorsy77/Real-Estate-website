@@ -10,7 +10,7 @@ import ContactUs from "../Components/contactUs/ContactUs";
 function AppRouter() {
   return (
     <>
-      <BrowserRouter>
+      
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
@@ -21,7 +21,7 @@ function AppRouter() {
             <Route path="/contact" element={<ContactUs />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      
     </>
   );
 }

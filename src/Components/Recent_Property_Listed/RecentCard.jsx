@@ -4,10 +4,13 @@ function RecentCard() {
   return (
     <div className="row mt-5 m-0">
       {list.map(({ id, cover, name, location, category, price, type }) => (
-        <a className="recent-card text-decoration-none col-12 col-md-6  col-lg-4  mt-4" key={id} >
+        <a
+          className="recent-card text-decoration-none col-12 col-md-6  col-lg-4  mt-4"
+          key={id}
+        >
           <div className="card border-0">
             <img src={cover} className="card-img-top" alt="recentImg" />
-            <div class="card-body">
+            <div className="card-body">
               <div className="category mt-2 d-flex align-items-center justify-content-between">
                 <span
                   className={`rounded-2 px-3 py-1  fw-bold ${
@@ -25,7 +28,7 @@ function RecentCard() {
               </p>
               <div className="recent-buy ">
                 <div className="price d-flex justify-content-between align-items-center">
-                  <div >
+                  <div>
                     <button className="btn btn-success">{price}</button>
                     <span className="ms-2">/sqft</span>
                   </div>
