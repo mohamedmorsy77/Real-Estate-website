@@ -1,6 +1,6 @@
 import React from "react";
-import about from "../../assets/images/about.jpg";
-import about_image from '../../assets/images/immio.jpg'
+import about from "../../assets/images/services.jpg";
+import about_image from '../../assets/images/services.jpg'
 import Banner from "../banner/Banner";
 
 import "./About.css";
@@ -32,7 +32,7 @@ function About() {
           <button className="mt-4 btn btn-success rounded-5 px-5 py-3 fs-4">More About Us</button>
           </div>
           <div className="col-12 col-lg-6 mt-5">
-            <img className="img-fluid" src={about_image} alt="about_image" />
+            <img className="img-fluid h-100 object-fit-cover" src={about_image} alt="about_image" />
           </div>
         </div>
       </div>

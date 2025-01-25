@@ -19,7 +19,7 @@ function PackageCard() {
               <ul className="list-unstyled mt-3 d-flex justify-content-center align-items-center gap-2">
                 {icons.map((icon) => (
                   <li className="d-flex align-items-center justify-content-center rounded-circle">
-                    <a className="text-decoration-none fw-bold" href="#">{icon}</a>
+                    <a aria-label="go to social media" className="text-decoration-none fw-bold" href="#">{icon}</a>
                   </li>
                 ))}
               </ul>

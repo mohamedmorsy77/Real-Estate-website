@@ -25,9 +25,12 @@ button {
   }
 }
 
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
+}
+
+.shadow {
+  box-shadow: 0 0 20px 0 rgba(112, 121, 138, 0.18);
 }

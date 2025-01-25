@@ -4,7 +4,7 @@ import logo from "../../assets/images/logo.png";
 import "./header.css";
 import { NavLink } from "react-router-dom";
 function Header() {
-  console.log(nav);
+  
   return (
     <header>
       <nav className="navbar position-relative navbar-expand-lg h-100">

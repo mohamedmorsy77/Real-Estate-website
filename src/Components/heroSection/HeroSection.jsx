@@ -42,7 +42,7 @@ function HeroSection() {
           </div>
 
           <div className="box w-100 w-lg-auto  mx-3  px-2 py-2">
-            <button className="btn d-block mx-3 btn-success px-4 py-3 text-center ">
+            <button aria-label="Search" className="btn d-block mx-3 btn-success px-4 py-3 text-center ">
               <i className="fa fa-search"></i>
             </button>
           </div>
